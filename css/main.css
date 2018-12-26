@@ -1,0 +1,33 @@
+/* FONT */
+@font-face {
+
+    src: url('css/fonts/Bellota-Light-webfont.woff') ;
+    font-family: 'Bellota-Light-webfont';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Bellota-Light-webfont';
+
+}
+
+
+body{
+background-color: #15c5bd;
+
+}
+
+nav .container{
+    color:#303030;
+
+}
+
+form{
+    background-color: #fff;
+border: 1px solid lightgrey;
+padding:10px 10px;
+border-radius: 5px;
+
+}
+
