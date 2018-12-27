@@ -55,22 +55,15 @@
          <!--PAYS-->
             <div class="col-md-6">
             <div class="form-group">
-             <label for="Pays">Pays</label>
-             <select id="form-pays" name="Pays" class="form-control" required>
-                 <option selected>Pays</option>
-                  <option value="Belgique">Belgique</option>
-                  <option value="Luxembourg">Luxembourg</option>
-                  <option value="Allemagne">Allemagne</option>
-                  <option value="Suisse">Suisse</option>
-                  <option value="Pays-Bas">Pays-Bas</option>
-                  <option value="France">France</option>
-             </select> 
+             <label for="pays">Pays</label>
+             <input id="form-pays" type="text" name="pays" placeholder="Votre pays" class="form-control" id="pays" required> 
+
             </div>
             </div>
             <!--MESSAGE-->
             <div class="col-md-12">
                 <div class="form-group">
-                    <label for="inputmessage"> Message</label>
+                    <label for="message"> Message</label>
                     <textarea class="form-control" placeholder="Ecrivez votre message" id="form-message" name="message" row="3" required></textarea>
                 </div>
             </div>   
@@ -79,12 +72,12 @@
             <div class="control-group">
              <label class="control-label" for="gender">Sexe</label>
              <div class="controls">
-              <label class="radio inline" for="gender-0">
-                <input name="gender" id="form-gender-0" value="Male" checked="checked" type="radio">
+                <label class="radio inline" for="gender">
+                <input type="radio" name="genre" value="2" >
                 Homme
-              </label>
-                <label class="radio inline" for="gender-1">
-                <input name="gender" id="form-gender-1" value="Female" type="radio" >
+                </label>
+                <label class="radio inline" for="gender">
+                <input required type="radio" name="genre" value="1">
                 Femme
                 </label>
             </div>
@@ -93,13 +86,10 @@
             <!--SUJET-->
             <div class="col-md-6">
             <div class="form-group">
-             <label for="Sujet">Sujet</label>
-             <select id="form-sujet" name="Sujet" class="form-control">
-                 <option selected>Choisir un sujet</option>
-                  <option value="Hacker un pc (attention c'est pas bien) ">Hacker un pc (attention c'est pas bien)</option>
-                  <option value="Manger du poulet(mmh c'est bon)">Manger du poulet (mmh c'est bon)</option>
-                  <option value="Autres">Autres</option>
-             </select> 
+             <label>Sujet</label><br>
+                  <input type="checkbox" name="sujet[]" value="1">Hacker un pc (attention c'est pas bien)</option><br>
+                  <input type="checkbox" name="sujet[]" value="2">Manger du poulet (mmh c'est bon)</option><br>
+                  <input type="checkbox" name="sujet[]" value="3">Autres</option> 
             </div>
             </div>
             <!--ENVOYER-->
