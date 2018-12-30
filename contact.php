@@ -21,7 +21,7 @@ if ($result != null AND $result != FALSE) {
             "Nom :" . $result['name'] . '<br/>' .
             "Pays : " . $result['pays'] . '<br/>' .
             "Email :" . $result['email'] . '<br/>' .
-            "message : " . $result['message'] . '<br/>' ;
+            "Message : " . $result['message'] . '<br/>' ;
 }
 
 
