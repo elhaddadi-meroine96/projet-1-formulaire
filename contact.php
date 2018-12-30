@@ -17,11 +17,11 @@ $formSan = array(
 $result = filter_input_array(INPUT_POST, $formSan);
 if ($result != null AND $result != FALSE) {
        echo
-            "Votre prénom est " . $result['prenom'] . '<br/>' .
-            "Votre nom est " . $result['name'] . '<br/>' .
-            "Votre pays est " . $result['pays'] . '<br/>' .
-            "Votre email est " . $result['email'] . '<br/>' .
-            "Votre message est " . $result['message'] . '<br/>' ;
+            "Prénom :" . $result['prenom'] . '<br/>' .
+            "Nom :" . $result['name'] . '<br/>' .
+            "Pays : " . $result['pays'] . '<br/>' .
+            "Email :" . $result['email'] . '<br/>' .
+            "message : " . $result['message'] . '<br/>' ;
 }
 
 
